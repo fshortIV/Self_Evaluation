@@ -1,0 +1,188 @@
+---
+title: "AN/BI 588: End-of-Semester Self Evaluation"
+author: "Frank Short"
+date: "December 14, 2021"
+output: 
+  rmarkdown::html_document:
+    theme: cosmo
+---
+
+***
+
+### [Course Overview](https://fuzzyatelin.github.io/bioanth-stats/overview.html)
+### [Course Outline](https://fuzzyatelin.github.io/bioanth-stats/outline.html)
+### [Modules](https://fuzzyatelin.github.io/bioanth-stats/modules.html)
+### [Assignments](https://fuzzyatelin.github.io/bioanth-stats/assignments.html)
+### [Resources](https://fuzzyatelin.github.io/bioanth-stats/resources.html)
+### [Policies](https://fuzzyatelin.github.io/bioanth-stats/policies.html)
+### [Insurmountable Coding Problems](https://fuzzyatelin.github.io/bioanth-stats/studentproblems.html)
+
+***
+
+<center>
+
+<font size="+2"><b>With a Little Help from My Friends</b></font></center><br>
+
+<center><p><img src="https://media4.giphy.com/media/Q3up37BnIHiIXniJfw/giphy.gif?cid=ecf05e47hazs38ohl3lajkfijw1hjoeixxbw4v62c7viybwl&rid=giphy.gif&ct=g" style="border:5px solid black"></p>
+</center><br>  
+
+<center>
+In AN588, Project Design in Biological Anthropology, I have learned and experienced many things. From the sheer and utter frustration of getting a loop or function to do what you want it to do, to the absolute rush and joy when it finally works, this class has taught me to appreciate the process of trying and trying again. In addition, peer review helped me discover that there are a multitude of ways to achieve the same goal, and that while the best way to learn is simply to do, learning from the mistakes and triumphs of others is also crucial for success. 
+</center>
+***
+
+## Instructions
+
+***
+
+Please download this Markdown file (`selfevaluation.Rmd`) from my GitHub site (in the `fuzzyatelin.github.io/bioanth-stats/` folder) and answer the appropriate questions in the spaces provided. Once you've knitted the final file, please *email* the **html** version of that file to me with the name `[LastF]_F19_SelfEvaluation.html` (with `LastF` meaning your last name followed by your first initial, i.e., mine would be called `SchmittC_F19_SelfEvaluation.html`). I must receive this file by **Midnight of the Final Exam Date**.
+
+***
+
+### Overall Impression
+
+***
+
+In place of my name as author on this Markdown file, please insert your own, along with the date on which you completed this self-assessment. In place of the RuPaul GIF, above, please choose a GIF of a drag queen that best exemplifies your overall feelings about what you learned/accomplished in this course. Additionally, replace the `The following self evaluation...` text below your GIF with a three sentence summary of your experience in the class and what you take away from it to accompany that GIF. You may also choose a catchy title.
+
+***
+
+### What were you asked to do?
+
+***
+
+1. Create and Clone a Github Repository
+
+In Assignment 1, I created and cloned a github repository for the first time. I also worked with committing and pushing changes to code.
+
+2. Work with Data Structures in R
+
+Also in assignment 1, I completed code accomplishing the challenges of working with data structures in R, including creating and subsetting vectors, creating and extracting from matrices, creating and extracting from arrays, creating nested hierarchical lists, coercing matrices to data frames, and finally coercing collumns of a data frame to be factor or logical-valued. 
+
+https://github.com/fshortIV/AN588-Week-2-fshort/blob/main/fshortIV_FinalHomeworkCode_01.html 
+
+3. Provide Peer Commentary and Push to Others' Repositories
+
+For the peer commentary portion of assignment 1, I cloned a peer's repository and assignment and provided useful feedback on their code. This feedback was then pushed to their repository.
+
+https://github.com/Warrenkevin/M4HW/blob/main/Warrenkevin_PeerCommentary_fshortIV_01.Rmd
+
+https://github.com/gabovicen/AN588-Week-2-gabovicen/blob/main/gabovicen_PeerCommentary_fshortIV_01.Rmd
+
+4. Work with Poisson Distributions and Probabilities
+
+For assignment 2, I calculated probabilities utilizing Poisson distributions in R. More specifically, I assessed the probability of a primatologist hearing more than 8 calls, zero calls, and exactly three calls utilizing the R functions ppois and dpois. Following this, I plotted a Poisson mass function, and simulated the 104 results from this distribution. 
+
+https://github.com/fshortIV/AN588-Week-3-fshortIV/blob/main/fshortIV_FINALHomeworkCode_02.html
+
+5. Provide Peer Commentary and Push to Repositories
+
+In addition, I worked with Victoria and Nirmitri to increase the quality of my code and theirs. I learned how to set a table of contents on the left side of my knitted html document through Victoria, and followed advice to explain my thought process outside of the code in the markdown for better visibility. In addition, I helped the others troubleshoot their code. 
+
+https://github.com/vzdanowicz/AN588-Week-3-vrz/blob/master/vrz_PeerCommentary_fshortIV_02.html
+
+6. Analyze the Zombies Data Set
+
+For assignment 3, I worked with the zombies data set to produce estimates of the population mean, standard deviation, and standard error for the quantitative random variables of height, weight, age, number of zombies killed, and years of education. In addition, I created box plots, scatterplots, Q-Q plots, and histograms to explore the data. Finally, I created a loop to randomly sample 30 survivors 100 times. This data set was then used to once again produce estimates of the population mean, standard deviation, and standard error for the quantitative random variables. Afterwards, I created histograms for each of these randomly sampled variables to assess normality. 
+
+https://github.com/fshortIV/AN588-Zombies-fshortIV/blob/master/fshortIV_OriginalHomeworkFinal_03.html
+
+7. Provide Peer Commentary and Push to Repositories
+
+I once again worked with Victoria on this assignment, but in this case we worked together in person during the peer commentary portion of the assignment. Meeting in person, we were able to figure out how to randomly sample from the data set. We then also provided helpful comments on each other's code and pushed to our respective repositories.
+
+https://github.com/vzdanowicz/AN588_Zombies_vrz/blob/main/vrz_PeerCommentary_fshortIV_03.Rmd
+
+8. Write a Function to Perform One Tailed and Two Tailed Proportion T-tests 
+
+In assignment 4, I first created a function that would return t-test results from a sample. This function included code to work with both one and two sample inputs to produce one-tail and two-tail tests respectively. The function also tested the sample to test for normality and produce a warning if the sample may not be of a normal distribution if the rule of thumb of (n∗p>5 and n∗(1−p)>5) is defied. 
+
+https://github.com/fshortIV/AN588_Malfunction_fshortIV/blob/main/fshortIV_FinalHomeworkCode_04.html
+
+9. Fit Regression Models and Plot Using the Kamilar and Cooper Data Set
+
+Also in assignment 4, I created and plotted linear regression models to predict longevity from brain size via the formula of log(longevity)~log(brain size). I then identified and interpreted the coefficients and intercepts produced by these models. This was accomplished using both the lm function, ggplot2, and the predict function. I then produced estimates utilizing these models. 
+
+https://github.com/fshortIV/AN588_Malfunction_fshortIV/blob/main/fshortIV_FinalHomeworkCode_04.html
+
+10. Provide Peer Commentary and Push to Repositories
+
+Here I worked with Isabel and Nimitri to troubleshoot issues with our code. I was able to give advice on how to produce a working function, and I also learned more on how to create linear models that incorporate the predict function. 
+
+https://github.com/inovick/AN588_Malfunction_inovick/blob/master/inovick_PeerCommentary_fshortIV_04.Rmd
+
+https://github.com/nirmitin/AN588_Malfunction_nirmitin/blob/main/nirmitin_PeerCommentary_fshortIV_04.Rmd
+
+11. Use Bootstrapping to Produce a Linear Regression, Standard Error, and Confidence Intervals
+
+In assignment 5, I utilized bootstrapping to produce 
+
+***
+
+### What did you accomplish?
+
+***
+
+Please let me know how many of the above tasks you accomplished. If any of them were accomplished later than stipulated, please note that. If you contacted me about them being late (and we discussed it and I said it was ok), please note that, too. You may provide a bulleted/numbered list matching the one above.<br><br><br><br><br><br>
+
+***
+
+### How well did you accomplish them?
+
+***
+
+Please let me know how well you feel you accomplished your tasks, in a general sense. What do you feel you did the best, and what did you do the least well? What was the hardest part for you? Did your work/understanding/ease improve over the course of the semester?<br><br><br><br><br><br>
+
+***
+
+### How has your understanding of and approach to statistics and project design changed since taking this course?
+
+***
+
+This may be in relation to previous knowledge, or in relation to future/planned work.<br><br><br><br><br><br><br><br>
+
+***
+
+### What did you learn from all this?
+
+***
+
+Please name at least three things you feel you learned in this course.<br><br><br><br><br><br><br><br>
+
+***
+
+### What did your learn about teamwork in this course? How did the readings on teamwork foster this understanding? How did the teamwork experiences?
+
+***
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+***
+
+### How did the Peer Commentary process and Group Project relate, if at all, to what you view as your successes or difficulties in this course?
+
+***
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+***
+
+### What, if anything, of lasting value do you take away from this experience? If nothing, what would you do differently if you were to start over in this course? 
+
+***
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+***
+
+### Taking this self-assessment into account (and with **A** being the highest), if you were the instructor, what grade would you give yourself given your evaluation of your own performance this semester? Please be honest.
+
+***
+
+<br><center>[insert letter grade here]</center><br>
+
+***
+
+
+
+
